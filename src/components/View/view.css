@@ -1,0 +1,48 @@
+.Title{
+    background: rgb(39, 64, 112);
+    position: fixed;
+    width: 100%;
+    padding: 10px 0px;
+    transition: 0.4s;
+}
+.Title:hover{
+    background: rgb(20, 35, 63);
+}
+.Title h1{
+    color: white;
+}
+.poster img{
+    margin-top: 100px;
+    border: 2px solid rgb(48, 80, 141);
+    transition: 0.4s;
+}
+.poster img:hover{
+    border: 2px solid rgb(39, 64, 112);
+    box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+}
+.container{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.container div{
+    margin: 20px auto;
+}
+.container h3{
+    color: #009688;
+}
+.container h3 svg{
+    fill:#4caf50;
+}
+.container p{
+    color: rgb(170, 167, 167);
+}
+.retry{
+    padding: 30px 0px;
+}
+@media only screen and (max-width:864px) {
+    .container{
+        grid-template-columns: 100%;
+        grid-gap: 30px;
+    }
+}
