@@ -25,5 +25,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Demo
 
-### [Movies App](https://movies-app-maim.netlify.app/).
+### [Movies App](https://maim.dev/land/movies/).
 ### [My Website](https://maim.cf/).
